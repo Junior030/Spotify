@@ -29,35 +29,57 @@
 
 <body>
 
-    <header class="container"> <!--Inicio Cabeçalho-->
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a href="index.html" class="navbar-brand"><img src="img/favicon.png" style="width: 100px;"></a>
-
-            <!--Menu Hanburguer-->
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#links">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link ">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Recursos</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Benefícios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Preço</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <header> <!--Inicio Cabeçalho-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente"> <!-- Inicio da navegação -->
+            <div class="container"> <!-- Inicio do container-->
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/spotify.svg" width="142">
+                </a>
+    
+                <!--Menu Hanburguer-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fas fa-bars"></i>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Premiun</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Ajuda</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Baixar</a>
+                        </li>
+                        <li class="nav-item divisor"></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Inscreva-se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Entrar</a>
+                        </li>
+                    </ul>
+                </div> 
+            </div><!-- Fim do container -->
+        </nav> <!-- Fim da navegação -->
     </header> <!--Fim Cabeçalho-->
+
+    <section id="home" class="d-flex">
+        <div class="container align-self-center">
+            <div class="row">
+                <div class="col-md-12 capa">
+                    <h1 class="">Música para todos</h1>
+                    <a href="" class="btn  btn-custom btn-roxo">APROVEITE O SPOTIFY FREE</a>
+                    <a href="" class="btn  btn-custom btn-branco">OBTER UM SPOTIFY PREMIUN</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 
 
