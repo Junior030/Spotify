@@ -2,6 +2,7 @@
 -------------------------*/
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -80,13 +81,70 @@ h1{
     color: white;
 }
 
+h3{    
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    font-size: 2em;
+}
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
 
+/*conteudo
+-------------------------------*/
+.caixa{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos{
+    background: #ffffff;
+}
+
+#servicos h2, h3{
+    color: #7c25f8;
+}
+
+.albuns{
+    padding: 10px 0;
+}
+
+#recursos{
+    color: #ffffff;
+}
+
+#recursos h2{
+    color: #ffffff;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.vertical-img {
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+
+/*Rodapé
+---------------------------------*/
+
+#rodape{
+    background: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
     
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
     .btn-custom{
-        padding: 10px 15px;
+        margin: 10px 15px;
     }
 }
 
@@ -96,7 +154,7 @@ h1{
         font-size: 3em;
     }
     .btn-custom{
-        padding: 10px 15px;
+        margin: 10px 10px;
     }
 }
 
