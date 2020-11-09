@@ -137,8 +137,35 @@ h2{
 #rodape{
     background: black;
     padding: 50px 0 20px 0;
-    position: relative;
+    position: relative ;
 }
+
+#rodape h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+#rodape .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+
+#rodape .navbar-nav a:hover{
+    color: #9bf0e1;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+#rodape ul{
+    list-style: none;
+}
+
+#rodape li{
+    float: right;
+    margin: 5px;
+}
+    
     
 
 /* Extra small devices (portrait phones, less than 576px)*/
