@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-    <img src="img/CapaREADME.pmg">
+    <img src="img/título.png">
 </h1>
 
 ## 📝 Sobre 
