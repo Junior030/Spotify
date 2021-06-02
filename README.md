@@ -19,3 +19,11 @@ O projeto foi desenvolvido usando as seguintes tecnologias.
 - [CSS](https://www.w3schools.com/css/)
 - [BOOTSTRAP](https://getbootstrap.com/)
 ---
+## 📁 Baixar o projeto
+```bash
+    $ git clone https://github.com/Junior030/Spotify
+
+    $ cd Spotify
+
+    $ xdg-open hello.html
+```
